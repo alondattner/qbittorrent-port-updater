@@ -69,6 +69,6 @@ services:
 
 Place the script in the same folder as your `docker-compose.yml`.
 
-## Done
+### 3. Start your stack. 
 
-Start your stack. qBittorrent will always use the correct forwarded port.
+qBittorrent will always use the correct forwarded port.
