@@ -2,8 +2,6 @@
 
 Automatically updates qBittorrent’s listening port to match the forwarded port from **Gluetun + ProtonVPN**.
 
----
-
 ## Usage
 
 ### 1. Create the script
@@ -44,8 +42,6 @@ Make it executable:
 chmod +x update-qbit-port.sh
 ```
 
----
-
 ### 2. Add the Docker Compose service
 
 ```yaml
@@ -72,8 +68,6 @@ services:
 ```
 
 Place the script in the same folder as your `docker-compose.yml`.
-
----
 
 ## Done
 
